@@ -3,9 +3,9 @@ package domain;
 public class Comic {
 
 	private int num;
-	private short day;
-	private short month;
-	private short year;
+	private int day;
+	private int month;
+	private int year;
 	private String title;
 	private String img;
 
@@ -13,7 +13,7 @@ public class Comic {
 
 	}
 
-	public Comic(int num, short day, short month, short year, String title, String img) {
+	public Comic(int num, int day, int month, int year, String title, String img) {
 		this.num = num;
 		this.day = day;
 		this.month = month;
@@ -30,27 +30,27 @@ public class Comic {
 		this.num = num;
 	}
 
-	public short getDay() {
+	public int getDay() {
 		return day;
 	}
 
-	public void setDay(short day) {
+	public void setDay(int day) {
 		this.day = day;
 	}
 
-	public short getMonth() {
+	public int getMonth() {
 		return month;
 	}
 
-	public void setMonth(short month) {
+	public void setMonth(int month) {
 		this.month = month;
 	}
 
-	public short getYear() {
+	public int getYear() {
 		return year;
 	}
 
-	public void setYear(short year) {
+	public void setYear(int year) {
 		this.year = year;
 	}
 
