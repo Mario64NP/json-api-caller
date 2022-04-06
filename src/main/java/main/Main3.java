@@ -3,7 +3,6 @@ package main;
 import java.io.FileReader;
 import java.util.Arrays;
 import java.util.List;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
